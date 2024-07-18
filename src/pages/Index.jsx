@@ -29,7 +29,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative h-[600px]">
-        <img src="/placeholder.svg" alt="Rijeka seaside" className="w-full h-full object-cover" />
+        <img src="/images/rijeka-hero.jpg" alt="Rijeka seaside" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Jana's Apartment in Rijeka</h1>
           <p className="text-xl md:text-2xl mb-8">Your perfect getaway in the heart of the Mediterranean</p>
@@ -68,9 +68,12 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[1, 2, 3, 4, 5, 6].map((i) => (
-              <img key={i} src="/placeholder.svg" alt={`Apartment image ${i}`} className="w-full h-64 object-cover rounded-lg" />
-            ))}
+            <img src="/images/rijeka-apartment-1.jpg" alt="Apartment living room" className="w-full h-64 object-cover rounded-lg" />
+            <img src="/images/rijeka-apartment-2.jpg" alt="Apartment bedroom" className="w-full h-64 object-cover rounded-lg" />
+            <img src="/images/rijeka-beach.jpg" alt="Rijeka beach" className="w-full h-64 object-cover rounded-lg" />
+            <img src="/images/rijeka-old-town.jpg" alt="Rijeka old town" className="w-full h-64 object-cover rounded-lg" />
+            <img src="/images/rijeka-harbor.jpg" alt="Rijeka harbor" className="w-full h-64 object-cover rounded-lg" />
+            <img src="/images/rijeka-hero.jpg" alt="Rijeka panorama" className="w-full h-64 object-cover rounded-lg" />
           </div>
         </div>
       </section>
@@ -90,7 +93,7 @@ const Index = () => {
               </div>
             </div>
             <div className="md:w-1/2">
-              <img src="/placeholder.svg" alt="Map" className="w-full h-64 object-cover rounded-lg" />
+              <img src="/images/rijeka-map.jpg" alt="Map of Rijeka" className="w-full h-64 object-cover rounded-lg" />
             </div>
           </div>
         </div>
